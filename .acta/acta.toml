@@ -1,23 +1,20 @@
-# acta — planning-repo config. Commands read this file; the logic lives in the package.
+targets = [
+    { name = "snake", repo = "joaovitorclark/snake", spec_dir = "docs/specs" },
+]
 
 [project]
 name = "snake"
 language = "pt-BR"
+project_url = "https://github.com/users/joaovitorclark/projects/14"
+project_id = "PVT_kwHOBHNr6M4Bkm4N"
 
 [github]
 repo = "joaovitorclark/snake"
-# project_url = "..."                    # written by `acta link`
 
-# [[targets]]
-# name = "example"
-# repo = "owner/example"
-# spec_dir = "docs/specs"                # defaults to docs/specs when omitted
-
-# The tool Acta hands the brief to when you run `acta spec`. Acta never reads
-# what the tool writes — it only checks that the payload folder is not empty.
-# Leave this out to have `acta spec` print the brief and the payload path so you
-# can write the spec with whatever you prefer. That is a supported mode.
-#
-# [spec_tool]
-# command = "specify"
-# args = ["--from-brief", "{brief_file}", "--out", "{payload_dir}"]
+[status]
+field_id = "PVTSSF_lAHOBHNr6M4Bkm4NzhjW4j8"
+Todo = "6f79a5b6"
+"In Progress" = "f44ee442"
+Done = "1d3c907f"
+Draft = "c12cc06b"
+Ready = "f034bef5"
